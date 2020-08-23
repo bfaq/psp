@@ -1,14 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package consultasSql;
 
 import conexion.sql;
 
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * sql insert and select datos del estudiante y cursos. Insertar matricula
  */
 public class control_matricula {
     private sql sen;

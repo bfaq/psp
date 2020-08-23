@@ -1,16 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package conexion;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * consultas sql para traer datos de estudiantes , matriculas y cursos.
  */
 public class sql {
     private conexion con;

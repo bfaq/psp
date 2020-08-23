@@ -1,14 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package consultasSql;
 
 import conexion.sql;
 
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * Consulta sql para insertar estudiantes
  */
 public class control_estudiantes {
     
@@ -18,13 +15,7 @@ public class control_estudiantes {
         
         sensql = new sql();
     }
-
-    
-    /**
-     *
-     * @param Date
-     */
-    
+  
     public boolean ingresar_estudiante(String id_carnet, String documento, String Tipo_doc, String nombre, String apellido, String sexo)
     {               
         

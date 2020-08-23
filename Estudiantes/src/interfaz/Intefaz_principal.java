@@ -5,9 +5,11 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import consultasSql.control_matricula;
+
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * Interfaz principal y algunas validaciones
  */
 public class Intefaz_principal extends javax.swing.JFrame {
 	
@@ -93,7 +95,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
    
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -107,7 +109,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
     Interfaz_materia mat = new Interfaz_materia();
     jDesktopPane1.add(mat);
     mat.show();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
     String est = JOptionPane.showInputDialog(this,"Ingrese el No de carnet del estudiante: ",JOptionPane.OK_OPTION);
@@ -123,23 +125,16 @@ public class Intefaz_principal extends javax.swing.JFrame {
           JOptionPane.showMessageDialog(null,"El estudiante no existe, debe registrarlo","Mensaje",JOptionPane.QUESTION_MESSAGE);  
        }
        
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
     Interfaz_notas nota = new Interfaz_notas();
     jDesktopPane1.add(nota);
     nota.show();
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+        
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -156,9 +151,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Intefaz_principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+       
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {

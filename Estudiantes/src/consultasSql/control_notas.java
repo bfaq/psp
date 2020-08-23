@@ -1,14 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package consultasSql;
 
 import conexion.sql;
 
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * Traer estudiante y asignar nota
  */
 public class control_notas {
     

@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package conexion;
 
 import java.sql.Connection;
@@ -10,8 +6,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * conexión a base de datos
  */
 public class conexion {
     
@@ -39,10 +36,7 @@ public class conexion {
           System.out.println(e);
          }
     }
-     /**
-     *
-     * @return
-     */
+   
     public Connection conectado(){
       return con;
 }

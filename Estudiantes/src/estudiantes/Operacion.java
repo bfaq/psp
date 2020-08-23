@@ -1,5 +1,9 @@
 package estudiantes;
-
+/**
+ * 
+ * @author bfaq
+ * Operaciones para hallar el promedio de nota
+ */
 public class Operacion {
 	private String label;
 

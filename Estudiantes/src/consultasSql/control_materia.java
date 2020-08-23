@@ -1,14 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package consultasSql;
 
 import conexion.sql;
 
 /**
- *
- * @author ANDRES
+ * 
+ * @author bfaq
+ * Consulta sql para ingresar materias
  */
 public class control_materia {
     
